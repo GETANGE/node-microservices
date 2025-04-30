@@ -83,24 +83,24 @@ async function testRedisConnection(){
 
 
         // Hashes => HSET, HGET, HGETALL, HDEL
-        await client.hSet("person:1", {
-            name: "Getange",
-            description: "Junior backend developer",
-            rating: '5'
-        })
+        // await client.hSet("person:1", {
+        //     name: "Getange",
+        //     description: "Junior backend developer",
+        //     rating: '5'
+        // })
 
-        const getUserRating = await client.hGet('person:1', 'rating')
-        console.log(getUserRating)
+        // const getUserRating = await client.hGet('person:1', 'rating')
+        // console.log(getUserRating)
 
-        const getFullProperty = await client.hGetAll('person:1')
-        console.log(getFullProperty)
+        // const getFullProperty = await client.hGetAll('person:1')
+        // console.log(getFullProperty)
 
-        const deleteProperty = await client.hDel('person:1', 'rating')
-        console.log(deleteProperty)
+        // const deleteProperty = await client.hDel('person:1', 'rating')
+        // console.log(deleteProperty)
 
-        const getUpdatedProperty = await client.hGetAll('person:1')
-        console.log(getUpdatedProperty)
-        
+        // const getUpdatedProperty = await client.hGetAll('person:1')
+        // console.log(getUpdatedProperty)
+
     } catch (error) {
         console.error(error)
     }finally{
