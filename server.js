@@ -6,6 +6,7 @@ import { globalErrorHandler } from "./middleware/errorHandler.js"
 import { urlVersioning } from "./middleware/apiVersioning.js";
 import { createBasicRateLimter } from "./middleware/rateLimitting.js"
 import { testRedisConnection } from "./config/redisConfig.js";
+import { testAdditionalFeatures } from "./config/pub-sub.js";
 import itemRoute from "./routes/item-route.js"
 
 dotenv.config()
@@ -21,6 +22,7 @@ app.use(configureCors());
 app.use(createBasicRateLimter(100, 15*60*100))
 app.use(express.json());
 app.use(testRedisConnection)
+app.use(testAdditionalFeatures)
 
 app.use(urlVersioning('v1'));
 app.use('/api/v1/', itemRoute);
