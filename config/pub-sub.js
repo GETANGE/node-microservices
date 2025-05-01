@@ -26,7 +26,7 @@ async function testAdditionalFeatures() {
 
         //Publish a message to a channel
         await client.publish("dummy-channel", 'some dummy data from publisher');
-        await client.publish("dummy-channel", 'some dummy data from publisher');
+        await client.publish("dummy-channel", 'some more dummy data from publisher');
 
         await new Promise((resolve)=> setTimeout(resolve, 3000));
 
@@ -53,7 +53,8 @@ async function testAdditionalFeatures() {
             pipelineOne.set(`User:${i}:action`, `Action ${i}`)
         }
 
-        await pipelineOne.exec()
+        const pipeResult =await pipelineOne.exec()
+        console.log(pipeResult) 
 
     } catch (error) {
         console.error(error)
