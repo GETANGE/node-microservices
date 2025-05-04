@@ -3,13 +3,13 @@ import mongoose from "mongoose";
 import { RateLimiterRedis } from "rate-limiter-flexible"
 import { rateLimit } from "express-rate-limit"
 import { RedisStore } from "rate-limit-redis"
-import { logger } from "../src/utils/logger.js"
+import { logger } from "./utils/logger.js"
 import express from "express"
 import helmet from "helmet"
 import Redis from "ioredis"
 import configureCors from "./config/cors-config.js";
 import { APIError, errorHandler } from "./middleware/errorHandler.js";
-import userRoute from "../src/routes/identity-service-route.js"
+import userRoute from "./routes/identity-service-route.js"
 
 dotenv.config()
 

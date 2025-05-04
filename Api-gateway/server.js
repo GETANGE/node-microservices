@@ -3,11 +3,11 @@ import dotenv from "dotenv"
 import Redis from "ioredis"
 import helmet from "helmet"
 import proxy from "express-http-proxy"
-import configureCors from "./../config/cors-config.js"
-import { logger } from "../src/utils/logger.js"
+import configureCors from "./config/cors-config.js"
+import { logger } from "./utils/logger.js"
 import { rateLimit } from "express-rate-limit"
 import { RedisStore } from "rate-limit-redis"
-import { APIError, errorHandler } from "../src/middleware/errorHandler.js"
+import { APIError, errorHandler } from "./middleware/errorHandler.js"
 
 dotenv.config()
 
