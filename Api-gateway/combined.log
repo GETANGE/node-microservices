@@ -84,3 +84,6 @@
 {"level":"info","message":"API Gateway is running on port: 5000","service":"API-gateway-service","timestamp":"2025-05-02T21:28:12.100Z"}
 {"level":"info","message":"Identity Service URL: http://localhost:5001/","service":"API-gateway-service","timestamp":"2025-05-02T21:28:12.118Z"}
 {"level":"info","message":"Redis URL: redis://localhost:6380","service":"API-gateway-service","timestamp":"2025-05-02T21:28:12.120Z"}
+{"level":"info","message":"API Gateway is running on port: 5000","service":"API-gateway-service","timestamp":"2025-05-05T19:29:59.189Z"}
+{"level":"info","message":"Identity Service URL: http://localhost:5001/","service":"API-gateway-service","timestamp":"2025-05-05T19:29:59.211Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6380","service":"API-gateway-service","timestamp":"2025-05-05T19:29:59.213Z"}
