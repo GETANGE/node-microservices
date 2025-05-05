@@ -1,1 +1,3 @@
 {"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-02T21:25:24.783Z"}
+{"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-05T19:30:00.946Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-05-05T19:30:01.028Z"}
