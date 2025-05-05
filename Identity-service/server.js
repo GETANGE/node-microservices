@@ -40,7 +40,7 @@ app.use((req, res, next)=>{
 app.get("/", (req, res) => {
     res.status(200).json({
       status: "success",
-      message: "Welcome to the root URL - Version 1.0.0",
+      message: "Welcome to the identity-service root URL - Version 1.0.0",
     });
   });
 

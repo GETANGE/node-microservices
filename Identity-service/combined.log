@@ -1,3 +1,45 @@
 {"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-02T21:25:24.783Z"}
+<<<<<<< Updated upstream
 {"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-05T19:30:00.946Z"}
 {"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-05-05T19:30:01.028Z"}
+=======
+{"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-05T08:33:09.526Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-05-05T08:33:09.625Z"}
+{"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-05T10:21:28.056Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-05-05T10:21:28.180Z"}
+{"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-05T10:21:32.061Z"}
+{"level":"info","message":"Connected to mongoDB","service":"identity-service","timestamp":"2025-05-05T10:21:32.171Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T11:58:17.952Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T11:58:17.956Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T11:58:17.996Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T12:14:13.683Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T12:14:13.685Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T12:14:13.698Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T13:23:21.456Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T13:23:21.458Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T13:23:21.489Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T16:05:13.321Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T16:05:13.323Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T16:05:13.334Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T16:37:32.737Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T16:37:32.746Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T16:37:32.769Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T16:52:40.792Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T16:52:40.793Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T16:52:40.804Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T17:16:57.030Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456te\"}","service":"identity-service","timestamp":"2025-05-05T17:16:57.032Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T17:16:57.059Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T17:17:10.207Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456t\"}","service":"identity-service","timestamp":"2025-05-05T17:17:10.209Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T17:17:10.217Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T17:17:15.972Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T17:17:15.973Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T17:17:15.983Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-05-05T19:04:59.717Z"}
+{"level":"info","message":"Request body, {\"email\":\"emmanuelgetange48@gmail.com\",\"password\":\"pass123456\",\"confirmPassword\":\"pass123456\"}","service":"identity-service","timestamp":"2025-05-05T19:04:59.718Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-05-05T19:04:59.729Z"}
+>>>>>>> Stashed changes
+{"level":"info","message":"Identity service running on port: 5001","service":"identity-service","timestamp":"2025-05-05T19:36:56.102Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at:","service":"identity-service","timestamp":"2025-05-05T19:37:06.749Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at:","service":"identity-service","timestamp":"2025-05-05T19:37:06.752Z"}
