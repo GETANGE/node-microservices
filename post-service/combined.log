@@ -494,3 +494,78 @@
 {"level":"info","message":"Received GET request to /api/post/6818ed51b1c125128e169f12","service":"identity-service","timestamp":"2025-05-05T19:10:37.236Z"}
 {"level":"info","message":"Request body, {}","service":"identity-service","timestamp":"2025-05-05T19:10:37.240Z"}
 {"level":"info","message":"Update post endpoint hit...","service":"identity-service","timestamp":"2025-05-05T19:10:37.254Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-05T19:44:38.892Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at:","service":"identity-service","timestamp":"2025-05-05T19:44:49.512Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","level":"error","message":"Unhandled Rejection at:","service":"identity-service","timestamp":"2025-05-05T19:44:49.514Z"}
+{"errorLabelSet":{},"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":43553609,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"service":"identity-service","stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (/home/emmanuel/Desktop/Projects/node-microservices/post-service/node_modules/.pnpm/mongoose@8.14.1/node_modules/mongoose/lib/connection.js:1165:11)\n    at NativeConnection.openUri (/home/emmanuel/Desktop/Projects/node-microservices/post-service/node_modules/.pnpm/mongoose@8.14.1/node_modules/mongoose/lib/connection.js:1096:11)","timestamp":"2025-05-05T19:45:08.853Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-09T22:51:49.076Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-09T22:51:49.178Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T09:10:23.755Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T09:10:23.863Z"}
+{"level":"info","message":"Received GET request to /api/post","service":"identity-service","timestamp":"2025-05-13T10:16:52.323Z"}
+{"level":"info","message":"Request body, {}","service":"identity-service","timestamp":"2025-05-13T10:16:52.328Z"}
+{"level":"info","message":"Fetching all posts...","service":"identity-service","timestamp":"2025-05-13T10:16:52.341Z"}
+{"level":"info","message":"Received GET request to /api/post","service":"identity-service","timestamp":"2025-05-13T10:17:01.952Z"}
+{"level":"info","message":"Request body, {}","service":"identity-service","timestamp":"2025-05-13T10:17:01.954Z"}
+{"level":"info","message":"Fetching all posts...","service":"identity-service","timestamp":"2025-05-13T10:17:01.962Z"}
+{"level":"info","message":"Received PATCH request to /api/post/6818abc3a7a3aaf09b2e5449","service":"identity-service","timestamp":"2025-05-13T10:20:45.547Z"}
+{"level":"info","message":"Request body, {\"content\":\"Updated post\"}","service":"identity-service","timestamp":"2025-05-13T10:20:45.549Z"}
+{"level":"info","message":"Received PATCH request to /v1/post/6818abc3a7a3aaf09b2e5449","service":"identity-service","timestamp":"2025-05-13T10:24:21.117Z"}
+{"level":"info","message":"Request body, {\"content\":\"Updated post\"}","service":"identity-service","timestamp":"2025-05-13T10:24:21.120Z"}
+{"level":"info","message":"Received PATCH request to /v1/post/6818abc3a7a3aaf09b2e5449","service":"identity-service","timestamp":"2025-05-13T10:25:06.064Z"}
+{"level":"info","message":"Request body, {\"content\":\"Updated post\"}","service":"identity-service","timestamp":"2025-05-13T10:25:06.073Z"}
+{"level":"info","message":"Received PATCH request to /v1/post/6818abc3a7a3aaf09b2e5449","service":"identity-service","timestamp":"2025-05-13T10:25:44.584Z"}
+{"level":"info","message":"Request body, {\"content\":\"Updated post\"}","service":"identity-service","timestamp":"2025-05-13T10:25:44.588Z"}
+{"level":"info","message":"Received PATCH request to /v1/post/6818abc3a7a3aaf09b2e5449","service":"identity-service","timestamp":"2025-05-13T10:25:48.271Z"}
+{"level":"info","message":"Request body, {\"content\":\"Updated post\"}","service":"identity-service","timestamp":"2025-05-13T10:25:48.273Z"}
+{"level":"info","message":"Received PATCH request to /v1/post/6818abc3a7a3aaf09b2e5449","service":"identity-service","timestamp":"2025-05-13T10:26:52.493Z"}
+{"level":"info","message":"Request body, {\"content\":\"Updated post\"}","service":"identity-service","timestamp":"2025-05-13T10:26:52.501Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:27:23.514Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:27:23.745Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:29:21.142Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:29:21.303Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:36:53.613Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:36:53.826Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:37:22.151Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:37:22.251Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:53:21.351Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:53:21.461Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:53:31.271Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:53:37.965Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:53:38.236Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:53:53.575Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:53:53.690Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:53:56.450Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:53:56.626Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:54:39.012Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:54:39.172Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:54:45.301Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:54:45.423Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:56:05.383Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:56:05.474Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:56:13.888Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:56:13.998Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:56:20.305Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:56:20.425Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:56:31.525Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:56:31.667Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:56:36.115Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:56:36.268Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:56:54.840Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:56:54.977Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:56:58.277Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:56:58.433Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:57:01.533Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:57:01.627Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T10:57:05.779Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T10:57:05.904Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T11:00:12.169Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T11:00:12.423Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T11:00:18.392Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T11:00:18.518Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T11:00:27.017Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T11:00:27.248Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T11:02:14.797Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T11:02:14.948Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"identity-service","timestamp":"2025-05-13T11:04:23.337Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-05-13T11:04:23.534Z"}

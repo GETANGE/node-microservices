@@ -3,7 +3,7 @@ const urlVersioning = (version) => (req, res, next) =>{
         next()
     }else{
         res.status(404).json({
-            status: false,
+            status: "fail",
             error: "API version is not supported"
         })
     }
@@ -14,7 +14,7 @@ const headerVersioning = (version) => (req, res, next)=>{
         next()
     }else{
         res.status(404).json({
-            status: false,
+            status: "fail",
             error: "API version is not supported"
         })
     }
@@ -27,7 +27,7 @@ const contentTypeVersioning = (version)=>(req, res, next)=>{
         next()
     }else{
         res.status(404).json({
-            status: false,
+            status: "fail",
             error: "API version is not supported"
         })
     }
