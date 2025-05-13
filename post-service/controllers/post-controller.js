@@ -5,8 +5,10 @@ import { logger } from "./../utils/logger.js";
 
 // invalidate redis cache
 async function invalidatePostCache(req, input){
-    const keys = await req.redisClient.keys("posts:*")
+    const cachedKey = `post:${input}`
+    await req.redisClient.del(cachedKey)
 
+    const keys = await req.redisClient.keys("posts:*")
     if(keys.length > 0){
         await req.redisClient.del(keys)
     }
@@ -131,6 +133,9 @@ export const updatePost = asyncHandler(async (req, res, next) => {
     await post.save();
     logger.info(`Post updated successfully`, post);
 
+    // invalidate the post cache
+    await invalidatePostCache(req, req.params.id)
+
     res.status(200).json({
         status: "success",
         message: "Post updated successfully",
@@ -157,6 +162,8 @@ export const deletePost = asyncHandler(async (req, res, next) => {
 
     await post.remove();
     logger.info(`Post deleted successfully`, postId);
+
+    await invalidatePostCache(req, req.params.id)
 
     res.status(200).json({
         status: "success",
