@@ -3,7 +3,7 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-const logger = winston.createLogger({
+export const logger = winston.createLogger({
     level: process.env.NODE_ENV === "production" ? 'info' : 'debug',
     format: winston.format.combine(
         winston.format.timestamp(),
@@ -23,5 +23,3 @@ const logger = winston.createLogger({
         new winston.transports.File({ filename: 'combined.log'})
     ]
 })
-
-export { logger }

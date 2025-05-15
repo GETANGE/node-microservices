@@ -1,7 +1,7 @@
 import {logger} from "./../utils/logger.js"
 import { APIError, asyncHandler } from "./errorHandler.js"
 
-const authenticateRequest = asyncHandler( async(req, res, next)=>{
+export const authenticateRequest = asyncHandler( async(req, res, next)=>{
     const userId = req.headers['x-user-id']
 
     if(!userId){
@@ -13,5 +13,3 @@ const authenticateRequest = asyncHandler( async(req, res, next)=>{
 
     next()
 })
-
-export { authenticateRequest }

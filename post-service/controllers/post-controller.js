@@ -1,5 +1,6 @@
 import { APIError, asyncHandler } from "../middlewares/errorHandler.js";
 import { Post } from "../models/post.js";
+import { publishEvent } from "../utils/rabbitMQ.js";
 import { validateContent } from "../utils/validation.js";
 import { logger } from "./../utils/logger.js";
 
@@ -62,6 +63,9 @@ export const getAllPosts = asyncHandler(async (req, res, next) => {
     }
 
     const posts = await Post.find({}).sort({ createdAt: -1 }).skip(startIndex).limit(limit);
+    if(!posts){
+        return next(new APIError(`No posts found`, 404))
+    }
     const totalNoOfPosts = await Post.countDocuments();
 
     const result = {
@@ -148,8 +152,8 @@ export const deletePost = asyncHandler(async (req, res, next) => {
     logger.info(`Delete post endpoint hit...`);
 
     const { postId } = req.params;
-
     const post = await Post.findById(postId);
+
     if (!post) {
         logger.warn(`Post not found`);
         return next(new APIError("Post not found", 404));
@@ -160,13 +164,21 @@ export const deletePost = asyncHandler(async (req, res, next) => {
         return next(new APIError("You are not authorized to delete this post", 403));
     }
 
-    await post.remove();
+    await post.deleteOne({ _id: postId});
     logger.info(`Post deleted successfully`, postId);
 
-    await invalidatePostCache(req, req.params.id)
+    // Publish post deleted event
+    await publishEvent('post.deleted', {
+        postId: post._id.toString(),
+        userId: req.user.userId,
+        mediaIds: post.mediaIds,
+    });
+
+    // Invalidate cache
+    await invalidatePostCache(req, postId);
 
     res.status(200).json({
         status: "success",
-        message: "Post deleted successfully"
+        message: "Post deleted successfully",
     });
 });
