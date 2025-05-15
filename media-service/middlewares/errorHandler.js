@@ -8,7 +8,7 @@ class APIError extends Error{
     }
 }
 
-const errorHandler = (err, req, res, next) => {
+export const errorHandler = (err, req, res, next) => {
     // logger.error(err.stack);
 
     res.status(err.statusCode || 500).json({
@@ -17,9 +17,8 @@ const errorHandler = (err, req, res, next) => {
     });
 };
 
-
-const asyncHandler = (fn) =>(req, res, next)=>{
+export const asyncHandler = (fn) =>(req, res, next)=>{
     Promise.resolve(fn(req, res, next)).catch(next)
 }
 
-export { errorHandler, asyncHandler, APIError }
+export { APIError }

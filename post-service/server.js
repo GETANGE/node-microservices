@@ -11,8 +11,10 @@ import postRoute from "./routes/post-route.js"
 import {errorHandler} from "./middlewares/errorHandler.js"
 import configureCors from "./config/cors-config.js";
 import {logger} from "./utils/logger.js"
+import { connectToRabbitMQ } from "./utils/rabbitMQ.js"
+import createServer from "./utils/mkServer.js"
 
-const app = express();
+const app = createServer();
 const PORT = process.env.PORT || 5002
 dotenv.config()
 
@@ -86,10 +88,18 @@ app.use('/api/post',(req, res, next)=>{
 
 app.use(errorHandler);
 
-
-app.listen(PORT, ()=>{
-    logger.info(`Post service running on port: ${PORT}`)
-})
+async function startServer(){
+    try {
+        await connectToRabbitMQ()
+        app.listen(PORT, ()=>{
+            logger.info(`Post service running on port: ${PORT}`)
+        })
+    } catch (error) {
+        logger.error(`Failed to connect to server`, error);
+        process.exit(1);
+    }
+}
+startServer();
 
 // Handle unhandled promise rejections
 process.on("unhandledRejection", (reason, promise) => {

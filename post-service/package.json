@@ -6,13 +6,16 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "mongo:download":"node config/download-mongo.js",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.10.0",
   "dependencies": {
+    "amqplib": "^0.10.8",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
@@ -21,12 +24,16 @@
     "ioredis": "^5.6.1",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.4",
     "mongoose": "^8.14.1",
     "rate-limit-redis": "^4.2.0",
     "rate-limiter-flexible": "^7.1.0",
+    "supertest": "^7.1.1",
     "winston": "^3.17.0"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server-core": "^10.1.4",
     "nodemon": "^3.1.10"
   }
 }

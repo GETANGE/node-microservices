@@ -4,6 +4,7 @@ import Redis from "ioredis"
 import helmet from "helmet"
 import proxy from "express-http-proxy"
 import configureCors from "./config/cors-config.js"
+
 import { logger } from "./utils/logger.js"
 import { rateLimit } from "express-rate-limit"
 import { RedisStore } from "rate-limit-redis"
@@ -93,6 +94,36 @@ app.use(
   })
 )
 
+// Proxy for Media-service
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    proxyReqPathResolver: (req) => req.originalUrl.replace(/^\/v1/, "/api"),
+
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+
+      //multipart form data
+      if(!srcReq.headers["content-type"].startsWith("multipart/form-data")){
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+
+      return proxyReqOpts;
+    },
+
+    proxyErrorHandler: (err, res, next) => {
+      logger.error(`Proxy error: ${err.message}`)
+      return next(new APIError(`Internal server error: ${err.message}`, 500))
+    },
+
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(`Response received from media service: ${proxyRes.statusCode}`)
+      return proxyResData
+    },
+  })
+)
+
 // Global error handler
 app.use(errorHandler)
 
@@ -100,5 +131,6 @@ app.listen(PORT, () => {
   logger.info(`API Gateway is running on port: ${PORT}`)
   logger.info(`Identity Service URL: ${process.env.IDENTITY_SERVICE_URL}`)
   logger.info(`Post Service URL: ${process.env.POST_SERVICE_URL}`)
+  logger.info(`Media Service URL: ${process.env.MEDIA_SERVICE_URL}`)
   logger.info(`Redis URL: ${process.env.REDIS_URL}`)
 })

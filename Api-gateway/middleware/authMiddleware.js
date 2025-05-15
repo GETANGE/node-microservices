@@ -3,7 +3,7 @@ import { logger } from "./../utils/logger.js"
 import jwt from "jsonwebtoken"
 
 
-const validateToken = (req, res, next)=>{
+export const validateToken = (req, res, next)=>{
     const authHeaders = req.headers['authorization'];
     const token = authHeaders && authHeaders.split(" ")[1]
 
@@ -22,5 +22,3 @@ const validateToken = (req, res, next)=>{
         next()
     })
 }
-
-export { validateToken}

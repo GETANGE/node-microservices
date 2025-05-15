@@ -1,0 +1,440 @@
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:00:47.449Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:01:04.844Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:01:59.905Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:02:12.642Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:04:05.103Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:05:03.016Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:05:33.230Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:06:22.289Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:06:46.531Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:06:53.000Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:06:58.523Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:07:07.589Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:07:17.663Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:07:51.083Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:08:35.750Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:08:44.499Z"}
+{"level":"info","message":"Post service running on port: 5003","service":"media-service","timestamp":"2025-05-13T22:11:03.080Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:11:03.228Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-13T22:13:26.968Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:13:27.148Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-13T22:27:47.192Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:27:47.348Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-13T22:28:36.403Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:28:36.571Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-13T22:29:29.628Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:29:29.792Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-13T22:30:14.866Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:30:15.010Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-13T22:44:37.827Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-13T22:44:38.046Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:13:37.504Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:13:37.695Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T09:47:19.030Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T09:47:19.032Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T09:47:20.426Z"}
+{"level":"info","message":"File details: name=undefined, type=undefined","service":"media-service","timestamp":"2025-05-14T09:47:20.428Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-05-14T09:47:20.429Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:48:25.144Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:48:25.269Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T09:48:29.909Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T09:48:29.911Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T09:48:30.956Z"}
+{"level":"info","message":"File details: name=undefined, type=undefined","service":"media-service","timestamp":"2025-05-14T09:48:30.957Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-05-14T09:48:30.958Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature a7515143adb70d6513ca26f1bd3c2eb3426272d7. String to sign - 'timestamp=1747216110'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:48:33.549Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature a7515143adb70d6513ca26f1bd3c2eb3426272d7. String to sign - 'timestamp=1747216110'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature a7515143adb70d6513ca26f1bd3c2eb3426272d7. String to sign - 'timestamp=1747216110'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:48:33.552Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:50:27.272Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:50:27.397Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T09:50:31.180Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T09:50:31.183Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T09:50:31.297Z"}
+{"level":"info","message":"File details: name=undefined, type=undefined","service":"media-service","timestamp":"2025-05-14T09:50:31.298Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-05-14T09:50:31.299Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 12364ed78963a0eee1a9600d1ca1cbe2bf4dd20d. String to sign - 'timestamp=1747216231'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:50:33.936Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature 12364ed78963a0eee1a9600d1ca1cbe2bf4dd20d. String to sign - 'timestamp=1747216231'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature 12364ed78963a0eee1a9600d1ca1cbe2bf4dd20d. String to sign - 'timestamp=1747216231'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:50:33.940Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:51:05.124Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:51:05.308Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:51:22.148Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:51:22.361Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T09:51:43.611Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T09:51:43.613Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T09:51:44.712Z"}
+{"level":"info","message":"File details: name=undefined, type=undefined","service":"media-service","timestamp":"2025-05-14T09:51:44.713Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-05-14T09:51:44.715Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 94bd4ef9525eb3e0336bde058b48e2df5d002731. String to sign - 'timestamp=1747216304'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:51:47.404Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature 94bd4ef9525eb3e0336bde058b48e2df5d002731. String to sign - 'timestamp=1747216304'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature 94bd4ef9525eb3e0336bde058b48e2df5d002731. String to sign - 'timestamp=1747216304'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:51:47.408Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:55:15.652Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:55:15.844Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T09:55:29.356Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T09:55:29.359Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T09:55:30.489Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T09:55:30.490Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T09:55:30.492Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 6ceabe14c51158c2590fa1ac1e312ee12870a230. String to sign - 'timestamp=1747216530'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:55:33.176Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature 6ceabe14c51158c2590fa1ac1e312ee12870a230. String to sign - 'timestamp=1747216530'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature 6ceabe14c51158c2590fa1ac1e312ee12870a230. String to sign - 'timestamp=1747216530'.","name":"Error","service":"media-service","timestamp":"2025-05-14T09:55:33.180Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:56:10.561Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:56:10.787Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T09:56:23.573Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T09:56:23.938Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:01:40.367Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:01:40.586Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:02:25.830Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:02:25.832Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:02:26.900Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:02:26.902Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:02:26.905Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 33591af789f0d474455e77d14bb91733dacb1391. String to sign - 'timestamp=1747216946'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:02:29.936Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature 33591af789f0d474455e77d14bb91733dacb1391. String to sign - 'timestamp=1747216946'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature 33591af789f0d474455e77d14bb91733dacb1391. String to sign - 'timestamp=1747216946'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:02:29.940Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 33591af789f0d474455e77d14bb91733dacb1391. String to sign - 'timestamp=1747216946'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:02:29.943Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:09:02.689Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:09:02.899Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:09:09.147Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:09:09.149Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:09:10.481Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:09:10.482Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:09:10.484Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 0d0e87c31a6591cdc309fe4c4c6b1fe6b4b5b8ed. String to sign - 'timestamp=1747217350'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:09:14.173Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature 0d0e87c31a6591cdc309fe4c4c6b1fe6b4b5b8ed. String to sign - 'timestamp=1747217350'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature 0d0e87c31a6591cdc309fe4c4c6b1fe6b4b5b8ed. String to sign - 'timestamp=1747217350'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:09:14.185Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 0d0e87c31a6591cdc309fe4c4c6b1fe6b4b5b8ed. String to sign - 'timestamp=1747217350'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:09:14.192Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:16:52.843Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:16:52.846Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:16:56.639Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:16:56.649Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:16:56.650Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature b00265195451809fd04eccc8d890f989b786080f. String to sign - 'timestamp=1747217816'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:16:59.392Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature b00265195451809fd04eccc8d890f989b786080f. String to sign - 'timestamp=1747217816'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature b00265195451809fd04eccc8d890f989b786080f. String to sign - 'timestamp=1747217816'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:16:59.422Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature b00265195451809fd04eccc8d890f989b786080f. String to sign - 'timestamp=1747217816'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:16:59.461Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:18:03.167Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:18:03.555Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:18:51.968Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:18:51.970Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:18:53.184Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:18:53.185Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:18:53.186Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature f8e95728c8d399df5770f0175248ad183de9af6e. String to sign - 'timestamp=1747217933'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:18:56.021Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature f8e95728c8d399df5770f0175248ad183de9af6e. String to sign - 'timestamp=1747217933'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature f8e95728c8d399df5770f0175248ad183de9af6e. String to sign - 'timestamp=1747217933'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:18:56.045Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature f8e95728c8d399df5770f0175248ad183de9af6e. String to sign - 'timestamp=1747217933'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:18:56.058Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:19:55.651Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:19:55.943Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:21:52.254Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:21:52.520Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:22:07.944Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:22:07.946Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:22:09.991Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:22:09.992Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:22:09.993Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 175074584d0a331508048b463c03a08545d95ba5. String to sign - 'timestamp=1747218129'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:22:12.506Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature 175074584d0a331508048b463c03a08545d95ba5. String to sign - 'timestamp=1747218129'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature 175074584d0a331508048b463c03a08545d95ba5. String to sign - 'timestamp=1747218129'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:22:12.517Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature 175074584d0a331508048b463c03a08545d95ba5. String to sign - 'timestamp=1747218129'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:22:12.525Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:28:22.027Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:28:22.152Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:29:35.657Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:29:35.843Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:30:59.577Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:30:59.579Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:30:59.626Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:30:59.627Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:30:59.629Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature cfe754815e48686bd69ba1fd4f5c2edcb83e9942. String to sign - 'timestamp=1747218659'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:31:07.717Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature cfe754815e48686bd69ba1fd4f5c2edcb83e9942. String to sign - 'timestamp=1747218659'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature cfe754815e48686bd69ba1fd4f5c2edcb83e9942. String to sign - 'timestamp=1747218659'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:31:07.722Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature cfe754815e48686bd69ba1fd4f5c2edcb83e9942. String to sign - 'timestamp=1747218659'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:31:07.725Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:31:23.200Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:31:23.201Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:31:23.219Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:31:23.220Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:31:23.221Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature d835f597bdc1a9a27a311e9155d5e54613a4c248. String to sign - 'timestamp=1747218683'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:31:25.735Z"}
+{"0":"r","1":"e","2":"a","3":"s","4":"o","5":"n","6":":","exception":{"http_code":401,"message":"Invalid Signature d835f597bdc1a9a27a311e9155d5e54613a4c248. String to sign - 'timestamp=1747218683'.","name":"Error"},"http_code":401,"level":"error","message":"Invalid Signature d835f597bdc1a9a27a311e9155d5e54613a4c248. String to sign - 'timestamp=1747218683'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:31:25.736Z"}
+{"http_code":401,"level":"error","message":"Invalid Signature d835f597bdc1a9a27a311e9155d5e54613a4c248. String to sign - 'timestamp=1747218683'.","name":"Error","service":"media-service","timestamp":"2025-05-14T10:31:25.739Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:35:32.633Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:35:32.632Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:35:32.834Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:35:32.888Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:42:43.643Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T10:42:43.637Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:42:43.859Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T10:42:43.868Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T10:43:09.218Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T10:43:09.219Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T10:43:09.262Z"}
+{"level":"info","message":"File details: name=Screenshot from 2024-08-17 16-52-23.png, type=image/png","service":"media-service","timestamp":"2025-05-14T10:43:09.263Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T10:43:09.264Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: ridern1u2g28zziu2id9","service":"media-service","timestamp":"2025-05-14T10:43:12.632Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:05:24.925Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:05:25.111Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:05:30.056Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:05:30.218Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:05:42.239Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:05:42.345Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:05:46.605Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:05:46.765Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:05:58.388Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:05:58.504Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:07:28.691Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:07:28.892Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:08:01.274Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:08:01.394Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:08:50.829Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:08:50.925Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:09:10.113Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:09:10.215Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:09:54.409Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:09:54.583Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:10:02.422Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:10:02.511Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:10:13.150Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:10:13.320Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:10:17.725Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:10:17.878Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:10:24.473Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:10:24.564Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:13:38.575Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:13:38.691Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:13:57.765Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:13:57.866Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:14:34.469Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:14:34.602Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:16:23.515Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:16:23.675Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:17:15.873Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:17:15.975Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:19:48.043Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:19:48.203Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:01.099Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:01.210Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:11.345Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:11.534Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:15.320Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:15.477Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:24.756Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:24.965Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:28.912Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:29.021Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:47.665Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:47.787Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:52.607Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:52.799Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:20:58.811Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:20:58.941Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:21:06.671Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:21:06.889Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:21:15.252Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:21:15.359Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:21:24.091Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:21:24.241Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:21:41.809Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:21:41.996Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:21:48.220Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:21:48.367Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:21:51.605Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:21:51.738Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:25:12.780Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:25:12.975Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T20:25:39.989Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T20:25:40.109Z"}
+{"level":"info","message":"Received GET request to /api/media/","service":"media-service","timestamp":"2025-05-14T20:35:02.844Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T20:35:02.846Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T20:37:26.078Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T20:37:26.083Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T20:37:26.214Z"}
+{"level":"info","message":"File details: name=WhatsApp Image 2024-11-25 at 12.37.35.jpeg, type=image/jpeg","service":"media-service","timestamp":"2025-05-14T20:37:26.216Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T20:37:26.217Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: iigvknwlj7nxyeajvzfu","service":"media-service","timestamp":"2025-05-14T20:37:30.417Z"}
+{"level":"info","message":"Received GET request to /api/media/","service":"media-service","timestamp":"2025-05-14T20:37:39.018Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T20:37:39.020Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:06:20.124Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:06:20.316Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:15:32.959Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:15:33.137Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:16:06.921Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:16:07.055Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:16:20.314Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:16:20.520Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:16:34.957Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:16:35.109Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:16:40.366Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:16:40.485Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:16:50.053Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:16:50.201Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:16:53.362Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:16:53.460Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:17:10.875Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:17:11.090Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:17:19.221Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:17:19.374Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:17:22.865Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:17:22.998Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:17:31.842Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:17:43.103Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:17:49.100Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:17:56.568Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:18:18.907Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:18:30.631Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:18:30.759Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:18:30.768Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:26:02.467Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:26:02.599Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:26:02.617Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:26:27.051Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:26:27.211Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:26:27.225Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:26:50.403Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:26:50.531Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:26:50.539Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:27:04.531Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:27:04.662Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:27:04.683Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:27:29.200Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:27:29.364Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:27:29.378Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:27:34.747Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:27:34.863Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:27:34.872Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:27:41.331Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:27:41.457Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:27:41.465Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:27:54.527Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:27:54.677Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:27:54.686Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:28:04.924Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:28:05.040Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:28:05.048Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:28:11.223Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:28:11.335Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:28:11.344Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:28:15.367Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:28:15.579Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:28:15.587Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:28:22.616Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:28:22.774Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:28:22.784Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:28:28.330Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:28:28.528Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:28:28.546Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:32:14.193Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:32:14.357Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:32:14.377Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:32:23.129Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:32:23.228Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:32:23.236Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:32:30.860Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:32:30.975Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:32:30.990Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:32:38.590Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:32:38.717Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:32:38.728Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:32:47.220Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:32:47.372Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:32:47.381Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:32:52.836Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:32:52.964Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:32:52.972Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:33:01.513Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:33:01.653Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:33:01.660Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:33:08.829Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:33:08.978Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:33:08.985Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:33:19.400Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:33:19.540Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:33:19.546Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:33:26.768Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:33:26.893Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:33:26.904Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:33:56.334Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:33:56.453Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:34:13.513Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:34:13.633Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:34:13.644Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:35:00.528Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:35:00.738Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:35:00.750Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:36:12.423Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:36:12.570Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:36:12.586Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:36:19.161Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:36:19.272Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:36:19.289Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:36:29.039Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:36:29.201Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:36:29.208Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:36:41.295Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:36:41.464Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:36:41.474Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:36:46.540Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:36:46.664Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:36:46.672Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:36:59.553Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:36:59.714Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:36:59.722Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:37:11.355Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:37:11.475Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:37:11.484Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:39:23.770Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:39:23.930Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:39:23.951Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:39:29.494Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:39:29.638Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:39:29.652Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:40:00.877Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:40:00.966Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:40:00.976Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:43:39.288Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:43:39.448Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:43:39.553Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:43:39.562Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:45:08.768Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:45:08.908Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:45:08.946Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:45:08.956Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:46:17.191Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:46:17.360Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:46:17.399Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:46:17.420Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:47:55.223Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:47:55.352Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:47:55.393Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:47:55.401Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:48:16.552Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:48:16.688Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:48:16.724Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:48:16.736Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:48:21.160Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:48:21.320Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:48:21.357Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:48:21.366Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:48:25.912Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:48:26.047Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:48:26.079Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:48:26.089Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:48:52.959Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:48:53.074Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:48:53.133Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:48:53.143Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:49:08.063Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:49:08.178Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:49:08.208Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:49:08.220Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:49:27.253Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:49:27.415Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:49:27.440Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:49:27.448Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T21:53:08.897Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T21:53:09.059Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T21:53:09.095Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T21:53:09.106Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-14T21:59:56.768Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T21:59:56.769Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-14T21:59:58.140Z"}
+{"level":"info","message":"File details: name=Emmanuel National Identity .pdf, type=application/pdf","service":"media-service","timestamp":"2025-05-14T21:59:58.141Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-14T21:59:58.142Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: mgnmcju7zzo8gwzfpg7r","service":"media-service","timestamp":"2025-05-14T22:00:03.327Z"}
+{"level":"info","message":"Received GET request to /api/media/","service":"media-service","timestamp":"2025-05-14T22:33:01.920Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T22:33:01.922Z"}
+{"level":"info","message":"Received GET request to /api/media/","service":"media-service","timestamp":"2025-05-14T22:34:48.683Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-14T22:34:48.685Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-14T22:40:21.339Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T22:40:21.703Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T22:40:21.761Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T22:40:21.775Z"}
