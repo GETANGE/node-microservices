@@ -913,3 +913,9 @@
 {"0":"6","1":"8","10":"8","11":"e","12":"c","13":"f","14":"2","15":"c","16":"2","17":"5","18":"f","19":"f","2":"2","20":"3","21":"9","22":"d","23":"7","3":"5","4":"1","5":"2","6":"f","7":"a","8":"d","9":"9","level":"info","message":"Post deleted successfully","service":"post-service","timestamp":"2025-05-14T22:34:43.769Z"}
 {"level":"info","message":"Event published: post.deleted","service":"post-service","timestamp":"2025-05-14T22:34:43.772Z"}
 {"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-14T22:40:20.013Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-17T15:14:31.745Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-17T15:14:31.919Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"post-service","timestamp":"2025-05-17T15:14:31.926Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-17T15:19:45.540Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-17T15:19:45.622Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"post-service","timestamp":"2025-05-17T15:19:45.629Z"}

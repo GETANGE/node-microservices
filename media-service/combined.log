@@ -438,3 +438,7 @@
 {"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-14T22:40:21.703Z"}
 {"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-14T22:40:21.761Z"}
 {"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-14T22:40:21.775Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-17T15:18:55.217Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-17T15:18:55.304Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-17T15:18:55.370Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-17T15:18:55.376Z"}

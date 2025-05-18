@@ -1,5 +1,5 @@
-import { Media } from "../models/media";
-import { deleteMediaFromCloudinary } from "../utils/cloudinary";
+import { Media } from "../models/media.js";
+import { deleteMediaFromCloudinary } from "../utils/cloudinary.js";
 import { logger } from "../utils/logger.js"
 
 // events being handled
