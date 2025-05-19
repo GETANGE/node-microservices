@@ -1,0 +1,345 @@
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T11:23:17.987Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T11:23:18.156Z"}
+{"level":"info","message":"Post service running on port: 5004","service":"post-service","timestamp":"2025-05-19T11:23:18.166Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T11:23:33.662Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T11:23:33.765Z"}
+{"level":"info","message":"Post service running on port: 5004","service":"post-service","timestamp":"2025-05-19T11:23:33.773Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T11:23:46.550Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T11:23:46.656Z"}
+{"level":"info","message":"Post service running on port: 5004","service":"post-service","timestamp":"2025-05-19T11:23:46.667Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T11:23:55.747Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T11:23:55.877Z"}
+{"level":"info","message":"Post service running on port: 5004","service":"post-service","timestamp":"2025-05-19T11:23:55.888Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T11:24:05.822Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T11:24:05.965Z"}
+{"level":"info","message":"Post service running on port: 5004","service":"post-service","timestamp":"2025-05-19T11:24:05.976Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T11:24:51.875Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T11:24:52.035Z"}
+{"level":"info","message":"Post service running on port: 5004","service":"post-service","timestamp":"2025-05-19T11:24:52.046Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T11:25:00.648Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T11:25:00.754Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"post-service","timestamp":"2025-05-19T11:25:00.764Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:25:21.055Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:25:21.186Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:25:21.198Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:28:03.786Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:28:03.896Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:28:03.920Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:28:07.850Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:28:08.067Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:28:08.087Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:28:16.501Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:28:16.639Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:28:16.652Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:29:40.807Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:29:40.960Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:29:40.985Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:31:02.744Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:31:02.955Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:31:02.973Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:16.657Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:16.868Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:40:16.879Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:25.337Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:25.504Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:31.198Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:31.377Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:40:31.388Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:36.913Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:37.061Z"}
+{"level":"info","message":"Subscribed to an event: p","service":"search-service","timestamp":"2025-05-19T11:40:37.111Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:40:37.124Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:40.521Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:40.759Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:44.786Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:44.940Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:40:45.009Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:40:45.020Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:53.871Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:53.981Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:40:59.555Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:40:59.713Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:41:59.604Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:41:59.752Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:42:15.341Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:42:15.496Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:42:21.859Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:42:22.005Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:44:40.853Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:44:41.338Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:44:45.430Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:44:45.558Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:44:47.990Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:44:48.130Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:44:56.381Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:44:56.516Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:02.277Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:02.414Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:19.749Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:19.875Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:24.637Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:24.758Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:28.176Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:28.337Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:34.419Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:34.655Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:37.334Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:37.529Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:48.141Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:48.305Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:45:57.493Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:45:57.645Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:46:00.188Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:46:00.314Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:46:08.038Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:46:08.222Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:46:18.097Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:46:20.694Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:46:20.874Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:46:25.843Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:46:25.972Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:46:31.656Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:46:31.769Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:47:41.382Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:48:08.865Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:48:09.056Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:48:09.138Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:48:09.147Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:49:06.984Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:49:07.156Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:49:07.208Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:49:07.218Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:50:46.062Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:50:46.206Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:50:46.273Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:50:46.280Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:50:50.818Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:50:51.000Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:50:51.083Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:50:51.121Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:09.572Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:51:09.726Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:51:09.777Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:51:09.787Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:12.991Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:51:13.130Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:51:13.175Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:51:13.184Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:28.448Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:51:28.628Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:51:28.758Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:51:28.840Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:32.753Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:51:32.962Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:51:33.033Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:51:33.041Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:39.373Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:51:39.490Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:51:39.536Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:51:39.544Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:46.180Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:51:46.355Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:51:46.400Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:51:46.412Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:51.118Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:51:55.835Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:51:55.998Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:51:56.045Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:51:56.053Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:52:04.704Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:52:04.851Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:52:04.936Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:52:04.945Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:53:11.981Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:53:12.228Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:53:12.324Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:53:12.342Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:53:17.323Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:53:17.510Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:53:17.557Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:53:17.568Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:53:22.016Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:53:22.154Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:53:22.199Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:53:22.207Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:53:33.501Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:53:33.708Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:53:33.771Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:53:33.781Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:53:52.915Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:53:53.051Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:53:53.080Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:53:53.088Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:54:26.384Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:54:26.530Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:54:26.578Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:54:26.588Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:54:37.012Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:54:37.176Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:54:37.235Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:54:37.244Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:54:41.879Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:54:42.044Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:54:42.106Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:54:42.116Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:54:47.358Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:54:47.487Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:54:47.527Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:54:47.536Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T11:54:53.249Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T11:54:53.374Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T11:54:53.402Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T11:54:53.410Z"}
+{"level":"info","message":"Received GET request to /api/search/post","service":"search-service","timestamp":"2025-05-19T12:23:12.946Z"}
+{"level":"info","message":"Request body, {\"query\":\"Microservices\"}","service":"search-service","timestamp":"2025-05-19T12:23:12.947Z"}
+{"level":"info","message":"Search endpoint hit...","service":"search-service","timestamp":"2025-05-19T12:23:12.961Z"}
+{"code":14,"codeName":"TypeMismatch","errorLabelSet":{},"errorResponse":{"code":14,"codeName":"TypeMismatch","errmsg":"\"$search\" had the wrong type. Expected string, found null","ok":0},"level":"error","message":"Internal server error \"$search\" had the wrong type. Expected string, found null","ok":0,"service":"search-service","stack":"MongoServerError: \"$search\" had the wrong type. Expected string, found null\n    at Connection.sendCommand (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-05-19T12:23:13.009Z"}
+{"level":"info","message":"Search post created: 682b23126144be23a381362c, 682b23124b31d1734e63658c","service":"search-service","timestamp":"2025-05-19T12:24:50.890Z"}
+{"level":"info","message":"Received GET request to /api/search/post","service":"search-service","timestamp":"2025-05-19T12:25:42.943Z"}
+{"level":"info","message":"Request body, {\"query\":\"Testing the search service\"}","service":"search-service","timestamp":"2025-05-19T12:25:42.944Z"}
+{"level":"info","message":"Search endpoint hit...","service":"search-service","timestamp":"2025-05-19T12:25:42.964Z"}
+{"code":14,"codeName":"TypeMismatch","errorLabelSet":{},"errorResponse":{"code":14,"codeName":"TypeMismatch","errmsg":"\"$search\" had the wrong type. Expected string, found null","ok":0},"level":"error","message":"Internal server error \"$search\" had the wrong type. Expected string, found null","ok":0,"service":"search-service","stack":"MongoServerError: \"$search\" had the wrong type. Expected string, found null\n    at Connection.sendCommand (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cmap/connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cmap/connection.js:327:26)\n    at async Server.command (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/sdam/server.js:168:29)\n    at async FindOperation.execute (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/operations/find.js:36:16)\n    at async tryOperation (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/operations/execute_operation.js:207:20)\n    at async executeOperation (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/operations/execute_operation.js:75:16)\n    at async FindCursor._initialize (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cursor/find_cursor.js:61:26)\n    at async FindCursor.cursorInit (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cursor/abstract_cursor.js:633:27)\n    at async FindCursor.fetchBatch (/home/emmanuel/Desktop/Projects/node-microservices/search-service/node_modules/.pnpm/mongodb@6.16.0/node_modules/mongodb/lib/cursor/abstract_cursor.js:667:13)","timestamp":"2025-05-19T12:25:42.983Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:28:07.163Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:28:07.307Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:28:07.338Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:28:07.347Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:28:53.297Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:28:53.436Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:28:53.504Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:28:53.515Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:32:45.499Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:32:45.753Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:32:45.857Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:32:45.938Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:32:45.953Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:32:50.186Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:32:50.334Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:32:50.367Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:32:50.397Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:32:50.408Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:32:57.158Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:32:57.309Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:32:57.349Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:33:00.883Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:33:01.138Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:33:01.211Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:33:04.378Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:33:04.511Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:33:04.550Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:34:23.924Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:34:24.084Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:34:24.153Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:34:46.459Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:34:46.602Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:34:46.648Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:35:12.293Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:35:12.429Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:35:12.456Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:35:12.478Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:35:12.485Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:36:50.531Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:36:50.728Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:36:50.856Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:36:51.012Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:36:51.027Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:46:24.623Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:46:24.788Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:46:24.844Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:46:24.875Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:46:24.885Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:46:31.147Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:46:31.300Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:46:31.351Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:46:31.382Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:46:31.393Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:46:42.987Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:46:43.140Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:46:43.180Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:46:43.210Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:46:43.221Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:46:48.025Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:46:48.185Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:46:48.231Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:46:48.281Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:46:48.291Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:46:55.232Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:46:55.363Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:46:55.396Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:46:55.426Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:46:55.434Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:47:04.298Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:47:04.484Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:47:04.525Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:47:04.568Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:47:04.578Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:47:08.811Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:47:08.979Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:47:09.059Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:47:09.131Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:47:09.146Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:47:16.898Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:47:17.083Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:47:17.129Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:47:17.176Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:47:17.189Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:47:36.112Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:47:36.243Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:47:36.301Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:47:36.348Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:47:36.358Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:47:42.325Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:47:42.488Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:47:42.522Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:47:42.552Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:47:42.558Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:47:46.669Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:47:46.788Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:47:46.821Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:47:46.863Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:47:46.875Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:48:07.611Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:48:07.750Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:48:07.817Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:48:07.893Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:48:07.912Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:48:22.420Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:48:22.610Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:48:22.752Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:48:22.835Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:48:22.846Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:52:39.778Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:52:39.942Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:52:40.005Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:52:40.044Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:52:40.052Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:52:45.994Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:52:46.140Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:52:46.174Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:52:46.204Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:52:46.213Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:52:49.736Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:52:49.904Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:52:49.976Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:52:50.016Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:52:50.026Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:52:53.896Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:52:54.111Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:52:54.175Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:52:54.217Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:52:54.230Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:53:02.469Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:53:02.634Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:53:02.684Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:53:02.750Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:53:02.760Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:53:58.364Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:53:58.522Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:53:58.576Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:53:58.609Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:53:58.617Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T12:54:02.185Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-05-19T12:54:02.319Z"}
+{"level":"info","message":"Subscribed to an event: post.created","service":"search-service","timestamp":"2025-05-19T12:54:02.352Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"search-service","timestamp":"2025-05-19T12:54:02.396Z"}
+{"level":"info","message":"Search service running on port: 5004","service":"search-service","timestamp":"2025-05-19T12:54:02.404Z"}
+{"level":"info","message":"Connected to mongodb","service":"search-service","timestamp":"2025-05-19T15:55:57.849Z"}
