@@ -5,6 +5,16 @@ import { generateToken } from "../utils/generateToken.js"
 import { logger } from "../utils/logger.js"
 import { validateRegistration, validateLogin } from "../utils/validation.js"
 
+// function to prevent use of emoji
+const removeEmoji = (text)=>{
+    return text.replace() // add some regex
+}
+
+// remove hashtags
+const removeHashtag = (text) =>{
+    return text.replace() // add some regex
+}
+
 // user registration
 export const userRegistration = asyncHandler(async(req, res, next)=>{
     logger.info(`Registration endpoint hit...`)

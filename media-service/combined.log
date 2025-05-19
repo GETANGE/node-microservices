@@ -442,3 +442,35 @@
 {"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-17T15:18:55.304Z"}
 {"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-17T15:18:55.370Z"}
 {"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-17T15:18:55.376Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Error connceting to RabbitMQ connect ECONNREFUSED 127.0.0.1:5672","port":5672,"service":"media-service","stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)","syscall":"connect","timestamp":"2025-05-19T07:31:47.469Z"}
+{"level":"error","message":"Error consuming an event Cannot read properties of null (reading 'assertQueue')","service":"media-service","stack":"TypeError: Cannot read properties of null (reading 'assertQueue')\n    at consumeEvent (file:///home/emmanuel/Desktop/Projects/node-microservices/media-service/utils/rabbitMQ.js:45:37)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async startServer (file:///home/emmanuel/Desktop/Projects/node-microservices/media-service/server.js:90:9)","timestamp":"2025-05-19T07:31:47.479Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-19T07:31:47.487Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-19T07:31:47.549Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-19T07:34:37.282Z"}
+{"level":"error","message":"Error connceting to RabbitMQ Socket closed abruptly during opening handshake","service":"media-service","stack":"Error: Socket closed abruptly during opening handshake\n    at Socket.endWhileOpening (/home/emmanuel/Desktop/Projects/node-microservices/media-service/node_modules/.pnpm/amqplib@0.10.8/node_modules/amqplib/lib/connection.js:214:19)\n    at Socket.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-05-19T07:34:42.216Z"}
+{"level":"error","message":"Error consuming an event Cannot read properties of null (reading 'assertQueue')","service":"media-service","stack":"TypeError: Cannot read properties of null (reading 'assertQueue')\n    at consumeEvent (file:///home/emmanuel/Desktop/Projects/node-microservices/media-service/utils/rabbitMQ.js:45:37)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async startServer (file:///home/emmanuel/Desktop/Projects/node-microservices/media-service/server.js:90:9)","timestamp":"2025-05-19T07:34:42.220Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-19T07:34:42.229Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-19T07:45:35.062Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-19T07:45:35.172Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-19T07:45:35.201Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-19T07:45:35.210Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-19T08:02:17.934Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-19T08:02:17.938Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-19T08:02:18.336Z"}
+{"level":"info","message":"File details: name=Emmanuel National Identity .pdf, type=application/pdf","service":"media-service","timestamp":"2025-05-19T08:02:18.337Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-19T08:02:18.338Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: ujydp6wms6joncz76k6x","service":"media-service","timestamp":"2025-05-19T08:02:22.833Z"}
+{"0":"u","1":"j","10":"j","11":"o","12":"n","13":"c","14":"z","15":"7","16":"6","17":"k","18":"6","19":"x","2":"y","3":"d","4":"p","5":"6","6":"w","7":"m","8":"s","9":"6","level":"info","message":"Media deleted successfully from cloud storage","service":"media-service","timestamp":"2025-05-19T08:05:14.790Z"}
+{"level":"info","message":"Deleted media 682ae58e2cd4464f379cbedd associated with this postId: 682ae5cb3ae6552bf209d324","service":"media-service","timestamp":"2025-05-19T08:05:14.804Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-05-19T08:57:54.386Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-05-19T08:57:54.387Z"}
+{"level":"info","message":"Starting uploading media...","service":"media-service","timestamp":"2025-05-19T08:57:55.414Z"}
+{"level":"info","message":"File details: name=Screenshot from 2025-05-07 02-33-05.png, type=image/png","service":"media-service","timestamp":"2025-05-19T08:57:55.414Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-05-19T08:57:55.415Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: xvenm3dpdxib0mcaqnpd","service":"media-service","timestamp":"2025-05-19T08:57:57.616Z"}
+{"0":"x","1":"v","10":"i","11":"b","12":"0","13":"m","14":"c","15":"a","16":"q","17":"n","18":"p","19":"d","2":"e","3":"n","4":"m","5":"3","6":"d","7":"p","8":"d","9":"x","level":"info","message":"Media deleted successfully from cloud storage","service":"media-service","timestamp":"2025-05-19T09:07:05.142Z"}
+{"level":"info","message":"Deleted media 682af2952cd4464f379cbee1 associated with this postId: 682af2ce3ae6552bf209d333","service":"media-service","timestamp":"2025-05-19T09:07:05.156Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-19T15:55:59.046Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-19T15:55:59.186Z"}
+{"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-19T15:55:59.235Z"}
+{"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-19T15:55:59.246Z"}
