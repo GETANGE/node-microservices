@@ -10,7 +10,7 @@ services:
       - redis
       - rabbitmq
     environment:
-      - REDIS_URL=redis://redis:6380
+      - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://admin:admin@rabbitmq:5672
     volumes:
       - logs:/app/logs
@@ -26,10 +26,11 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongoDB
+      - mongodb
     environment:
-      - REDIS_URL=redis://redis:6380
+      - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://admin:admin@rabbitmq:5672
+      - MONGO_URL=mongodb://mongodb:27017/identityDB
     volumes:
       - logs:/app/logs
       - uploads:/app/uploads
@@ -44,10 +45,11 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongoDB
+      - mongodb
     environment:
-      - REDIS_URL=redis://redis:6380
+      - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://admin:admin@rabbitmq:5672
+      - MONGO_URL=mongodb://mongodb:27017/postDB
     volumes:
       - logs:/app/logs
       - uploads:/app/uploads
@@ -62,10 +64,11 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongoDB
+      - mongodb
     environment:
-      - REDIS_URL=redis://redis:6380
+      - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://admin:admin@rabbitmq:5672
+      - MONGO_URL=mongodb://mongodb:27017/mediaDB
     volumes:
       - logs:/app/logs
       - uploads:/app/uploads
@@ -80,13 +83,31 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongoDB
+      - mongodb
     environment:
-      - REDIS_URL=redis://redis:6380
+      - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://admin:admin@rabbitmq:5672
+      - MONGO_URL=mongodb://mongodb:27017/searchDB
     volumes:
       - logs:/app/logs
       - uploads:/app/uploads
+    networks:
+      - node-microservices
+
+  mongodb:
+    image: mongo:6
+    container_name: mongodb
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
     networks:
       - node-microservices
 
@@ -134,4 +155,5 @@ volumes:
   logs:
   uploads:
   redis_data:
+  mongo_data:
   rabbitmq_data:
