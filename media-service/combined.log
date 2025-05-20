@@ -474,3 +474,4 @@
 {"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-05-19T15:55:59.186Z"}
 {"level":"info","message":"Subscribed to an event: post.deleted","service":"media-service","timestamp":"2025-05-19T15:55:59.235Z"}
 {"level":"info","message":"Media service running on port: 5003","service":"media-service","timestamp":"2025-05-19T15:55:59.246Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-05-19T18:06:17.884Z"}
