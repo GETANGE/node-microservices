@@ -1051,3 +1051,6 @@
 {"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T15:55:58.092Z"}
 {"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T15:55:58.355Z"}
 {"level":"info","message":"Post service running on port: 5002","service":"post-service","timestamp":"2025-05-19T15:55:58.381Z"}
+{"level":"info","message":"Connected to mongodb","service":"post-service","timestamp":"2025-05-19T18:06:17.441Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-05-19T18:06:17.586Z"}
+{"level":"info","message":"Post service running on port: 5002","service":"post-service","timestamp":"2025-05-19T18:06:17.596Z"}
