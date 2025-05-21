@@ -59,6 +59,12 @@ services:
     ports:
       - "5000:5000"
     env_file: ./Api-gateway/.env
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5000 || exit 1"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
     depends_on:
       mongodb:
         condition: service_healthy
@@ -78,6 +84,12 @@ services:
     ports:
       - "5001:5001"
     env_file: ./Identity-service/.env
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5001 || exit 1"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
     depends_on:
       mongodb:
         condition: service_healthy
@@ -98,6 +110,12 @@ services:
     ports:
       - "5002:5002"
     env_file: ./post-service/.env
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5002 || exit 1"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
     depends_on:
       mongodb:
         condition: service_healthy
@@ -120,6 +138,12 @@ services:
     ports:
       - "5003:5003"
     env_file: ./media-service/.env
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5003 || exit 1"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
     depends_on:
       mongodb:
         condition: service_healthy
@@ -142,6 +166,12 @@ services:
     ports:
       - "5004:5004"
     env_file: ./search-service/.env
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5004 || exit 1"]
+      interval: 1m30s
+      timeout: 30s
+      retries: 5
+      start_period: 30s
     depends_on:
       mongodb:
         condition: service_healthy
