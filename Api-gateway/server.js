@@ -39,6 +39,14 @@ const ratelimit = rateLimit({
 
 app.use(ratelimit)
 
+// health check
+app.get('/', (req, res)=>{
+  res.status(200).json({
+    status:"success",
+    message: "Welcome to the base url of this distributed system"
+  })
+})
+
 app.use((req, res, next) => {
   logger.info(`Received ${req.method} request to ${req.url}`)
   logger.info(`Request body: ${JSON.stringify(req.body)}`)
@@ -149,14 +157,6 @@ app.use(
     },
   })
 )
-
-// health check
-app.get('/', (req, res)=>{
-  res.status(200).json({
-    status:"success",
-    message: "Welcome to the base url of this distributed system"
-  })
-})
 
 // Global error handler
 app.use(errorHandler)
