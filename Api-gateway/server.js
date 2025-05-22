@@ -39,7 +39,7 @@ const ratelimit = rateLimit({
 
 app.use(ratelimit)
 
-// health check
+// health check 
 app.get('/', (req, res)=>{
   res.status(200).json({
     status:"success",

@@ -1293,3 +1293,9 @@
 {"level":"info","message":"Media Service URL: http://localhost:5003/","service":"API-gateway-service","timestamp":"2025-05-19T18:06:15.641Z"}
 {"level":"info","message":"Search Service URL: http://localhost:5004/","service":"API-gateway-service","timestamp":"2025-05-19T18:06:15.643Z"}
 {"level":"info","message":"Redis URL: redis://localhost:6380","service":"API-gateway-service","timestamp":"2025-05-19T18:06:15.645Z"}
+{"level":"info","message":"API Gateway is running on port: 5000","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.549Z"}
+{"level":"info","message":"Identity Service URL: http://identity-service:5001/","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.562Z"}
+{"level":"info","message":"Post Service URL: http://post-service:5002/","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.563Z"}
+{"level":"info","message":"Media Service URL: http://media-service:5003/","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.564Z"}
+{"level":"info","message":"Search Service URL: http://search-service:5004/","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.565Z"}
+{"level":"info","message":"Redis URL: redis://redis:6379","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.566Z"}
