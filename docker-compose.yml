@@ -58,7 +58,6 @@ services:
     build: ./Api-gateway
     ports:
       - "5000:5000"
-    env_file: ./Api-gateway/.env
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:5000 || exit 1"]
       interval: 1m30s
@@ -83,7 +82,6 @@ services:
     build: ./Identity-service
     ports:
       - "5001:5001"
-    env_file: ./Identity-service/.env
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:5001 || exit 1"]
       interval: 1m30s
@@ -109,7 +107,6 @@ services:
     build: ./post-service
     ports:
       - "5002:5002"
-    env_file: ./post-service/.env
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:5002 || exit 1"]
       interval: 1m30s
@@ -137,7 +134,6 @@ services:
     build: ./media-service
     ports:
       - "5003:5003"
-    env_file: ./media-service/.env
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:5003 || exit 1"]
       interval: 1m30s
@@ -165,7 +161,6 @@ services:
     build: ./search-service
     ports:
       - "5004:5004"
-    env_file: ./search-service/.env
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:5004 || exit 1"]
       interval: 1m30s
