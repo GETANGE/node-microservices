@@ -5,37 +5,6 @@ on:
     branches:
       - master
 
-env:
-  # Global Environment Variables
-  NODE_ENV: ${{ vars.NODE_ENV }}
-  REDIS_URL: ${{ secrets.REDIS_URL }}
-  RABBITMQ_URL: ${{ secrets.RABBITMQ_URL }}
-  MONGO_URI: ${{ secrets.MONGO_URI }}
-  JWT_SECRET: ${{ secrets.JWT_SECRET }}
-
-  # Gateway
-  GATEWAY_PORT: ${{ vars.GATEWAY_PORT }}
-  IDENTITY_SERVICE_URL: ${{ vars.IDENTITY_SERVICE_URL }}
-  POST_SERVICE_URL: ${{ vars.POST_SERVICE_URL }}
-  MEDIA_SERVICE_URL: ${{ vars.MEDIA_SERVICE_URL }}
-  SEARCH_SERVICE_URL: ${{ vars.SEARCH_SERVICE_URL }}
-
-  # Identity Service
-  AUTH_PORT: ${{ vars.AUTH_PORT }}
-
-  # Post Service
-  POST_PORT: ${{ vars.POST_PORT }}
-
-  # Media Service
-  MEDIA_PORT: ${{ vars.MEDIA_PORT }}
-  CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
-  CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
-  CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
-  CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
-
-  # Search Service
-  SEARCH_SERVICE_PORT: ${{ vars.SEARCH_SERVICE_PORT }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -69,21 +38,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Add VPS SSH host key to known_hosts
-        run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
-
-      - name: Set up SSH key for authentication
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.VPS_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
       - name: SSH into VPS and deploy
-        uses: appleboy/ssh-action@v0.1.5
+        uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.VPS_HOST }}
           username: root
@@ -92,10 +48,91 @@ jobs:
           script: |
             cd /root/projects/node-microservices
             git pull origin master
+
+            # Create .env files with proper formatting
+            cat > post-service/.env <<EOF
+            REDIS_URL=${REDIS_URL}
+            RABBITMQ_URL=${RABBITMQ_URL}
+            MONGO_URL=${MONGO_URI}
+            POST_PORT =${POST_PORT}
+            NODE_ENV=${NODE_ENV}
+            EOF
+
+            cat > Api-gateway/.env <<EOF
+            REDIS_URL=${REDIS_URL}
+            RABBITMQ_URL=${RABBITMQ_URL}
+            IDENTITY_SERVICE_URL=${IDENTITY_SERVICE_URL}
+            POST_SERVICE_URL=${POST_SERVICE_URL}
+            MEDIA_SERVICE_URL=${MEDIA_SERVICE_URL}
+            SEARCH_SERVICE_URL=${SEARCH_SERVICE_URL}
+            GATEWAY_PORT = ${GATEWAY_PORT}
+            EOF
+
+            cat > Identity-service/.env <<EOF
+            MONGO_URI=MONGO_URL=${MONGO_URI}
+            NODE_ENV=${NODE_ENV}
+            AUTH_PORT = ${AUTH_PORT}
+            JWT_SECRET=${JWT_SECRET}
+            REDIS_URL=${REDIS_URL}
+            EOF
+
+            cat > media-service/.env <<EOF
+            MONGO_URI=MONGO_URL=${MONGO_URI}
+            NODE_ENV=production
+            MEDIA_PORT = ${MEDIA_PORT}
+            JWT_SECRET=${JWT_SECRET}
+            RABBITMQ_URL=${RABBITMQ_URL}
+            CLOUDINARY_API_KEY =${CLOUDINARY_API_KEY}
+            CLOUDINARY_API_SECRET =${CLOUDINARY_API_SECRET}
+            CLOUDINARY_CLOUD_NAME =${CLOUDINARY_CLOUD_NAME}
+            CLOUDINARY_URL= ${CLOUDINARY_URL}
+            EOF
+
+            cat > search-service/.env <<EOF
+            MONGO_URI=MONGO_URL=${MONGO_URI}
+            NODE_ENV=production
+            SEARCH_SERVICE_PORT = ${SEARCH_SERVICE_PORT}
+            RABBITMQ_URL=${RABBITMQ_URL}
+            REDIS_URL=${REDIS_URL}
+            EOF
+
             docker-compose down
             docker-compose up --build -d
 
-      - name: Debug SSH connection (optional)
+        env:
+          NODE_ENV: ${{ vars.NODE_ENV }}
+          REDIS_URL: ${{ secrets.REDIS_URL }}
+          RABBITMQ_URL: ${{ secrets.RABBITMQ_URL }}
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+
+          GATEWAY_PORT: ${{ vars.GATEWAY_PORT }}
+          IDENTITY_SERVICE_URL: ${{ vars.IDENTITY_SERVICE_URL }}
+          POST_SERVICE_URL: ${{ vars.POST_SERVICE_URL }}
+          MEDIA_SERVICE_URL: ${{ vars.MEDIA_SERVICE_URL }}
+          SEARCH_SERVICE_URL: ${{ vars.SEARCH_SERVICE_URL }}
+
+          # Identity Service
+          AUTH_PORT: ${{ vars.AUTH_PORT }}
+
+          # Post Service
+          POST_PORT: ${{ vars.POST_PORT }}
+
+          # Media Service
+          MEDIA_PORT: ${{ vars.MEDIA_PORT }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+
+          # Search Service
+          SEARCH_SERVICE_PORT: ${{ vars.SEARCH_SERVICE_PORT }}          
+
+      - name: Debug SSH connection
         run: |
-          ssh -v -i ~/.ssh/id_rsa root@${{ secrets.VPS_HOST }} "echo 'SSH connection successful'"
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
+          ssh -v -o StrictHostKeyChecking=no root@${{ secrets.VPS_HOST }} "echo 'SSH connection successful'"
         continue-on-error: true
