@@ -14,7 +14,7 @@ import { validateToken } from "./middleware/authMiddleware.js"
 dotenv.config()
 
 const app = express()
-const PORT = process.env.PORT || 5000
+const PORT = process.env.GATEWAY_PORT || 5000
 
 const redisClient = new Redis(process.env.REDIS_URL)
 

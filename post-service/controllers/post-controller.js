@@ -28,6 +28,10 @@ export const createPost = asyncHandler(async (req, res, next) => {
 
     const { content, mediaIds } = req.body;
 
+    const postExists = await Post.findOne({ content })
+
+    if(postExists) return next (new APIError(`Post already exists`, 401))
+
     const newlyCreatedPost = new Post({
         user: req.user.userId,
         content: content,

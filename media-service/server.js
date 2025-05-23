@@ -15,7 +15,7 @@ import { consumeEvent } from "./utils/rabbitMQ.js"
 import { handlePostDeleted } from "./eventHandlers/media-event-handler.js"
 
 const app = express();
-const PORT = process.env.PORT || 5003
+const PORT = process.env.MEDIA_PORT || 5003
 dotenv.config()
 
 // connect to mongoDB

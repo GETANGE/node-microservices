@@ -16,7 +16,7 @@ import { connectToRabbitMQ, consumeEvent } from "./utils/rabbitMQ.js"
 import createServer from "./utils/mkServer.js"
 
 const app = createServer();
-const PORT = process.env.PORT || 5004
+const PORT = process.env.SEARCH_SERVICE_PORT || 5004
 dotenv.config()
 
 // connect to mongoDB

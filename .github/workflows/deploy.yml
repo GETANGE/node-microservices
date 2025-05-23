@@ -5,6 +5,37 @@ on:
     branches:
       - master
 
+env:
+  # Global Environment Variables
+  NODE_ENV: ${{ vars.NODE_ENV }}
+  REDIS_URL: ${{ secrets.REDIS_URL }}
+  RABBITMQ_URL: ${{ secrets.RABBITMQ_URL }}
+  MONGO_URI: ${{ secrets.MONGO_URI }}
+  JWT_SECRET: ${{ secrets.JWT_SECRET }}
+
+  # Gateway
+  GATEWAY_PORT: ${{ vars.GATEWAY_PORT }}
+  IDENTITY_SERVICE_URL: ${{ vars.IDENTITY_SERVICE_URL }}
+  POST_SERVICE_URL: ${{ vars.POST_SERVICE_URL }}
+  MEDIA_SERVICE_URL: ${{ vars.MEDIA_SERVICE_URL }}
+  SEARCH_SERVICE_URL: ${{ vars.SEARCH_SERVICE_URL }}
+
+  # Identity Service
+  AUTH_PORT: ${{ vars.AUTH_PORT }}
+
+  # Post Service
+  POST_PORT: ${{ vars.POST_PORT }}
+
+  # Media Service
+  MEDIA_PORT: ${{ vars.MEDIA_PORT }}
+  CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+  CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+  CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+  CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+
+  # Search Service
+  SEARCH_SERVICE_PORT: ${{ vars.SEARCH_SERVICE_PORT }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -52,6 +83,14 @@ jobs:
           echo "${{ secrets.VPS_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
 
+      - name: Copy env files to VPS
+        run: |
+          scp -i ~/.ssh/id_rsa ./Api-gateway/.env root@${{ secrets.VPS_HOST }}:/root/projects/node-microservices/Api-gateway/.env
+          scp -i ~/.ssh/id_rsa ./Identity-service/.env root@${{ secrets.VPS_HOST }}:/root/projects/node-microservices/Identity-service/.env
+          scp -i ~/.ssh/id_rsa ./Media-service/.env root@${{ secrets.VPS_HOST }}:/root/projects/node-microservices/Media-service/.env
+          scp -i ~/.ssh/id_rsa ./Post-service/.env root@${{ secrets.VPS_HOST }}:/root/projects/node-microservices/Post-service/.env
+          scp -i ~/.ssh/id_rsa ./Search-service/.env root@${{ secrets.VPS_HOST }}:/root/projects/node-microservices/Search-service/.env
+
       - name: SSH into VPS and deploy
         uses: appleboy/ssh-action@v0.1.5
         with:
@@ -60,7 +99,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd projects/node-microservices
+            cd /root/projects/node-microservices
             git pull origin master
             docker-compose down
             docker-compose up --build -d
