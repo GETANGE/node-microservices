@@ -1,5 +1,7 @@
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import { serve } from "@hono/node-server";
+import { secureHeaders } from "hono/secure-headers"
 import { rateLimiter } from "hono-rate-limiter"
 import { logger } from "hono/logger"
 import { RedisStore } from "rate-limit-redis"
@@ -7,13 +9,14 @@ import mongoose from "mongoose";
 import Redis from "ioredis"
 
 import dotenv from "dotenv"
-import configureCors from "./config/cors-config.js";
 import notifeeRoute from "./routes/notifee-route.js";
+import { connectToRabbitMQ, consumeEvent } from "./utils/rabbitMQ.js";
+import { mediaEventHandler } from "./event-handlers/event-handler.js";
 
 dotenv.config();
 
 const app = new Hono()
-const PORT = process.env.NOTIFEE_PORT ?? 5005;
+const PORT = process.env.NOTIFEE_PORT || 5005;
 
 mongoose.connect(process.env.MONGO_URI)
     .then(()=> console.log(`MongoDB connected`))
@@ -22,7 +25,8 @@ mongoose.connect(process.env.MONGO_URI)
 const redisClient = new Redis(process.env.REDIS_URL);
 
 app.use(logger())
-app.use(configureCors());
+app.use(cors());
+app.use(secureHeaders())
 
 app.use((c, next) => {
   console.log(`Received ${c.req.method} request to ${c.req.url}`)
@@ -48,7 +52,7 @@ app.use("*", rateLimiter({
   })
 }))
 
-app.get("/api/notifee", notifeeRoute);
+app.route("/api/notifee", notifeeRoute);
 
 app.notFound((c)=>{
     return c.json({ message: `This route ${c.req.method} is not yet handled`})
@@ -58,9 +62,15 @@ app.onError((err, c) => {
     return c.json({ errorMessage: `App Error: ${err.message}`}, 500)
 })
 
-serve({
-    fetch: app.fetch,
-    port: PORT
-})
+async function startServer() {
+  await connectToRabbitMQ();
+  await consumeEvent("notifications.notify", mediaEventHandler)
 
-console.log(`Hono is running on http://localhost:${PORT}`);
+  serve({
+      fetch: app.fetch,
+      port: PORT
+  })
+
+  console.log(`Hono is running on http://localhost:${PORT}`);
+}
+startServer();

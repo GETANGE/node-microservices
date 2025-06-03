@@ -5,7 +5,7 @@ import notifeeModel from "../models/notifee-model.js"
 export const getAllNotifications = async(c) => {
     try {
         const notifications = await notifeeModel.find();
-        if(!notifications){
+        if(!notifications || notifications < 1){
             return c.json({ message : "No notifications found"}, 400)
         }
 

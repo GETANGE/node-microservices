@@ -1299,3 +1299,19 @@
 {"level":"info","message":"Media Service URL: http://media-service:5003/","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.564Z"}
 {"level":"info","message":"Search Service URL: http://search-service:5004/","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.565Z"}
 {"level":"info","message":"Redis URL: redis://redis:6379","service":"API-gateway-service","timestamp":"2025-05-22T15:16:03.566Z"}
+{"level":"info","message":"API Gateway is running on port: 5000","service":"API-gateway-service","timestamp":"2025-06-03T18:20:24.813Z"}
+{"level":"info","message":"Identity Service URL: http://identity-service:5001","service":"API-gateway-service","timestamp":"2025-06-03T18:20:24.827Z"}
+{"level":"info","message":"Post Service URL: http://post-service:5002","service":"API-gateway-service","timestamp":"2025-06-03T18:20:24.828Z"}
+{"level":"info","message":"Media Service URL: http://media-service:5003","service":"API-gateway-service","timestamp":"2025-06-03T18:20:24.829Z"}
+{"level":"info","message":"Search Service URL: http://search-service:5004","service":"API-gateway-service","timestamp":"2025-06-03T18:20:24.830Z"}
+{"level":"info","message":"Notification Service URL: http://notification-service:5005","service":"API-gateway-service","timestamp":"2025-06-03T18:20:24.831Z"}
+{"level":"info","message":"Redis URL: redis://localhost:6380","service":"API-gateway-service","timestamp":"2025-06-03T18:20:24.832Z"}
+{"level":"info","message":"Received GET request to /api/notifee","service":"API-gateway-service","timestamp":"2025-06-03T18:21:00.104Z"}
+{"level":"info","message":"Request body: undefined","service":"API-gateway-service","timestamp":"2025-06-03T18:21:00.109Z"}
+{"level":"info","message":"Received GET request to /v1/api/notifee","service":"API-gateway-service","timestamp":"2025-06-03T18:21:57.424Z"}
+{"level":"info","message":"Request body: undefined","service":"API-gateway-service","timestamp":"2025-06-03T18:21:57.428Z"}
+{"level":"info","message":"Received GET request to /v1/notifee","service":"API-gateway-service","timestamp":"2025-06-03T18:22:12.837Z"}
+{"level":"info","message":"Request body: undefined","service":"API-gateway-service","timestamp":"2025-06-03T18:22:12.838Z"}
+{"level":"warn","message":"Access atemp without a valid token","service":"API-gateway-service","timestamp":"2025-06-03T18:22:12.842Z"}
+{"level":"info","message":"Received GET request to /favicon.ico","service":"API-gateway-service","timestamp":"2025-06-03T18:22:13.322Z"}
+{"level":"info","message":"Request body: undefined","service":"API-gateway-service","timestamp":"2025-06-03T18:22:13.323Z"}

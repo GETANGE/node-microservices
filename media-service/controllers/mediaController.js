@@ -2,6 +2,7 @@ import { logger } from "./../utils/logger.js"
 import { APIError, asyncHandler } from "./../middlewares/errorHandler.js"
 import { uploadMediaToCloudinary } from "../utils/cloudinary.js";
 import { Media } from "./../models/media.js"
+import { publishEvent } from "../utils/rabbitMQ.js";
 
 export const uploadMedia = asyncHandler(async (req, res, next) => {
     logger.info(`Starting uploading media...`);
@@ -36,6 +37,15 @@ export const uploadMedia = asyncHandler(async (req, res, next) => {
         url: cloudinaryUploadResult.secure_url,
         userId: userId
     });
+
+    await publishEvent('notifications.notify', {
+        title : "Media Creation",
+        message: "Cloudinary upload successful.",
+        type: "success",
+        read: false,
+        data: newlyCreatedMedia,
+        channel: "in-app"
+    })
 
     await newlyCreatedMedia.save();
 
